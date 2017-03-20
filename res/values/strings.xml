@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">AdAptable</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="IniciarSesión">Iniciar Sesión</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="Registro">Registro</string>
+    <string name="repassword">Repetir Password</string>
+    <string name="email">Email</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="CerrarSesion">Cerrar Sesión</string>
+
+    <string name="ToastUser">Usuario o Contraseña incorrecta</string>
+    <string name="ToastCampos">Por favor complete todos los campos</string>
+    <string name="ToastErrorReg">Error en Registro</string>
+    <string name="ToastPass">Contraseñas no coinciden</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_ubicacion">UbicacionActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Ubicacion">Ubicación</string>
+    <string name="Configuracion">Configuración</string>
+    <string name="Principal">Principal</string>
+    <string name="Seguidos">Seguidos:</string>
+    <string name="cuentas">Cuentas que sigues:</string>
+    <string name="promociones">Promociones vigentes:</string>
+    <string name="RopaMasc">Ropa Masculina</string>
+    <string name="RopaFem">Ropa Femenina</string>
+    <string name="Restaurantes">Restaurantes</string>
+    <string name="Conciertos">Conciertos</string>
+    <string name="ArtDep">Artículos Deportivos</string>
+    <string name="ArtHog">Artículos para el Hogar</string>
+    <string name="BuscarOf">Buscar ofertas en:</string>
+    <string name="conf1">Recibir notificaciones tipo Push:</string>
+    <string name="conf2">Recibir notificaciones vía e-mail</string>
+    <string name="conf3">Recibir notificaciones según mi ubicación</string>
+
+</resources>
