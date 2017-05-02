@@ -67,7 +67,7 @@
                     android:gravity="center"
                     android:text="@string/Seguidos"
                     android:textStyle="bold"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textColor="@color/white"/>
 
                 <TextView

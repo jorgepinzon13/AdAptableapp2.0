@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jorge.adaptable.DetalleActivity">
+
+
+    <fragment
+        android:name="com.example.jorge.adaptable.BarraFragment"
+        android:id="@+id/fragment_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/imagen_extendida"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/promo1"
+        android:transitionName="@string/nombre_transicion_imagen">
+    </ImageView>
+
+</LinearLayout>

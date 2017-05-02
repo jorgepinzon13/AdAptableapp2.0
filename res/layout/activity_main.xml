@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jorge.adaptable.MainActivity"
+    android:background="@drawable/fondo">
+
+    <fragment
+        android:name="com.example.jorge.adaptable.BarraFragment"
+        android:id="@+id/fragment_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="120dp"
+        android:horizontalSpacing="16dp"
+        android:numColumns="auto_fit"
+        android:padding="1dp"
+        android:verticalSpacing="16dp"/>
+
+</LinearLayout>
