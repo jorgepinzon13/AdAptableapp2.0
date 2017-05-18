@@ -64,7 +64,7 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="70dp"
                 android:layout_weight="1"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="40dp"
@@ -76,11 +76,12 @@
                 android:gravity="center"
                 android:text="@string/RopaMasc"
                 android:id="@+id/tRopMasc"
+                android:layout_gravity="center"
                 />
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="70dp"
                 android:layout_weight="1"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="40dp"
@@ -91,11 +92,12 @@
                 android:textAlignment="center"
                 android:gravity="center"
                 android:text="@string/RopaFem"
-                android:id="@+id/tRopFem"/>
+                android:id="@+id/tRopFem"
+                android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="70dp"
                 android:layout_weight="1"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="40dp"
@@ -106,49 +108,12 @@
                 android:textAlignment="center"
                 android:gravity="center"
                 android:text="@string/Restaurantes"
-                android:id="@+id/tRest"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="6"
-            android:orientation="horizontal">
+                android:id="@+id/tRest"
+                android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginTop="40dp"
-                android:layout_marginBottom="40dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:background="@color/darkorange"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:gravity="center"
-                android:text="@string/Conciertos"
-                android:id="@+id/tConc"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginTop="40dp"
-                android:layout_marginBottom="40dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:background="@color/darkorange"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:gravity="center"
-                android:text="@string/ArtDep"
-                android:id="@+id/tArtDep"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="70dp"
                 android:layout_weight="1"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="40dp"
@@ -159,8 +124,79 @@
                 android:textAlignment="center"
                 android:gravity="center"
                 android:text="@string/ArtHog"
-                android:id="@+id/tArtHog"/>
+                android:id="@+id/tArtH"
+                android:layout_gravity="center"/>
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/darkorange"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="@string/Conciertos"
+                android:id="@+id/tConc"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/darkorange"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="@string/Tecno"
+                android:id="@+id/tTecno"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/darkorange"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="@string/Cine"
+                android:id="@+id/tCine"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/darkorange"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="@string/Viaje"
+                android:id="@+id/tViaje"
+                android:layout_gravity="center"/>
         </LinearLayout>
 
     </LinearLayout>

@@ -36,10 +36,12 @@
     <string name="RopaFem">Ropa Femenina</string>
     <string name="Restaurantes">Restaurantes</string>
     <string name="Conciertos">Conciertos</string>
-    <string name="ArtDep">Artículos Deportivos</string>
+    <string name="Tecno">Tecnología</string>
     <string name="ArtHog">Artículos para el Hogar</string>
+    <string name="Cine">Cines y Teatros</string>
+    <string name="Viaje">Viajes</string>
     <string name="BuscarOf">Buscar ofertas en:</string>
-    <string name="conf1">Recibir notificaciones tipo Push:</string>
+    <string name="conf1">Recibir notificaciones tipo Push</string>
     <string name="conf2">Recibir notificaciones vía e-mail</string>
     <string name="conf3">Recibir notificaciones según mi ubicación</string>
 
@@ -51,5 +53,9 @@
     <string name="nombre_transicion_imagen">imagen_compartida</string>
 
     <string name="facebook_app_id">1688967178073173</string>
-    
+    <string name="Configuraciones">Por favor selecciona las categorías de tu preferencia:</string>
+    <string name="Sí">Sí</string>
+    <string name="No">No</string>
+    <string name="Restaurar">Restaurar Valores Predeterminados</string>
+
 </resources>
